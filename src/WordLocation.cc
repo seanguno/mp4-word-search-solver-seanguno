@@ -5,3 +5,4 @@ std::ostream& operator<<(std::ostream& os, const WordLocation& wl) {
   for (const auto& cp : wl.char_positions) os << cp;
   return os;
 }
+
